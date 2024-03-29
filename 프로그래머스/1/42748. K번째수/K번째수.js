@@ -8,8 +8,3 @@ function solution(array, commands) {
     }
     return answer;
 }
-
-// 1. commands[x]에서 [i, j, k] 찾기
-// 2. commands.length만큼 반복문 -> newArray = array.slice(commands[i][0]-1, commands[i][1])
-// 3. newArray 오름차순 정렬
-// 4. answer.push(newArray[commands[i][2]])
