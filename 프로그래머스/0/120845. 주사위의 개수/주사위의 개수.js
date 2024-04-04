@@ -1,4 +1,4 @@
 function solution(box, n) {
-    var answer = 0;
-    return answer;
+    let [width, length, height] = box;
+    return Math.floor(width/n) * Math.floor(length/n) * Math.floor(height/n)
 }
